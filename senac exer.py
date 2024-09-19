@@ -178,5 +178,49 @@ if condicao == "/":
     print("o resultado da divisão é: {}".format(r))'''
 
 
+""" desafio 2  """
+""" 
+v1 = int(input("Valor 1: "))
 
-    
+if v1 % 2 == 0:
+    print("ERRO: número par")
+else:
+    v2 = int(input("Valor 2: "))
+
+    if v2 % 2 == 0:
+        print("ERRO: número par")
+    else:
+        r = v1 + v2
+        print("O valor é de {}".format(r))
+     """
+
+""" desafio 1  """
+
+
+
+n1 = input("Digite o primeiro valor")
+n2 = input("Digite o segundo valor")
+operacao = ("Digite um operador")
+
+
+
+
+if operacao == "+":
+    r = n1 + n2
+    print("O resultado é {}".format(r))
+
+
+elif operacao == "-":
+    r = n1 - n2
+    print("O resultado é {}".format(r))
+
+controle = 0
+mult = 0
+
+elif operacao =="*":
+    for in range (n2)
+    n1 = n1 +1
+
+
+
+
