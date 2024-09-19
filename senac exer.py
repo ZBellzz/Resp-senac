@@ -198,11 +198,11 @@ else:
 
 
 
-n1 = input("Digite o primeiro valor")
-n2 = input("Digite o segundo valor")
-operacao = ("Digite um operador")
-
-
+n1 = int(input("Digite o primeiro valor"))
+n2 = int(input("Digite o segundo valor"))
+operacao = input("Digite um operador")
+c = 0
+pre = 0
 
 
 if operacao == "+":
@@ -214,12 +214,15 @@ elif operacao == "-":
     r = n1 - n2
     print("O resultado é {}".format(r))
 
-controle = 0
-mult = 0
 
-elif operacao =="*":
-    for in range (n2)
-    n1 = n1 +1
+elif operacao == "*":
+    c != n2
+    
+        pre = n1 + pre
+        c + 1
+        print(pre)
+
+
 
 
 
